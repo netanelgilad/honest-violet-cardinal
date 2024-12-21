@@ -16,7 +16,6 @@
     "@tailwindcss/container-queries": "^0.1.1",
     "@tailwindcss/typography": "^0.5.15",
     "@wix/astro-internal": "https://cdn.dev.wixpress.com/@wix/astro-internal/4a6e599e853b4fab9f4d36484b7ae498eb48d975c9967be66ae28fba.tar.gz",
-    "@wix/cli-astro-internal": "https://cdn.dev.wixpress.com/@wix/cli-astro-internal/44243acb9df5b05e824590497473d31890f15ccdd5f4543ed67b0b53.tar.gz",
     "@wix/data": "1.0.168",
     "@wix/ecom": "1.0.806",
     "@wix/redirects": "1.0.60",
@@ -27,7 +26,8 @@
     "typescript": "^5.6.3"
   },
   "devDependencies": {
-    "@wix/cli": "https://cdn.dev.wixpress.com/@wix/cli/4cf3fe1da2b0b8b6c0b9dad19a270e7c85fbf9a3a8cbf41a771febc1.tar.gz"
+    "@wix/cli": "https://cdn.dev.wixpress.com/@wix/cli/4cf3fe1da2b0b8b6c0b9dad19a270e7c85fbf9a3a8cbf41a771febc1.tar.gz",
+    "@wix/cli-astro-internal": "https://cdn.dev.wixpress.com/@wix/cli-astro-internal/44243acb9df5b05e824590497473d31890f15ccdd5f4543ed67b0b53.tar.gz"
   },
   "packageManager": "yarn@4.5.3"
 }
