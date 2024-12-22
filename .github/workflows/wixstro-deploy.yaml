@@ -66,7 +66,7 @@ jobs:
           echo "output<<${delimiter}" >> "${GITHUB_OUTPUT}"
           yarn wix astro deploy --env $ENV_NAME --output-summary ./wix/deploy-summary.json >> "${GITHUB_OUTPUT}"
           echo "${delimiter}" >> "${GITHUB_OUTPUT}"
-          echo "deployment_domain=$(jq -r .siteDeployment.domain ./wix/deploy-summary.json)" >> "${GITHUB_ENV}"
+          echo "deployment_domain=$(jq -r .siteDeployment.domain ./wix/deploy-summary.json)" >> "${GITHUB_OUTPUT}"
         env:
           ENV_NAME: ${{ inputs.env-name }}
 
