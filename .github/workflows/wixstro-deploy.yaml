@@ -23,8 +23,6 @@ on:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    permissions: 
-      pull-requests: write 
     name: Build & Deploy
     outputs:
       deploy-result: ${{ steps.deploy-preview.outputs.output }}
